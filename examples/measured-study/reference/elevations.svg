@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="770" viewBox="0 0 1000 770" role="img" aria-labelledby="title desc">
+  <title id="title">午后书房 · 窗洞实测立面</title>
+  <desc id="desc">北墙原方案与西墙修改方案。尺寸均为米。两面墙的窗均宽1.40高1.20，窗台1.04。</desc>
+  <defs><pattern id="paper" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 8 8 0" stroke="#e4dccc" stroke-width=".6"/></pattern>
+  <style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",Arial,sans-serif;fill:#2d3938}.small{font-size:15px}.label{font-size:19px;font-weight:600}.note{font-size:16px;fill:#59635b}.wall{fill:url(#paper);stroke:#465048;stroke-width:2}.dim{stroke:#6d796f;fill:none;stroke-width:1.2}</style></defs>
+  <rect width="1000" height="770" fill="#f8f4e9"/>
+  <text x="55" y="57" font-size="32" font-weight="650">窗洞立面</text><text x="228" y="55" font-size="19">室内正投影</text>
+  <text x="55" y="92" class="note">原创合成测绘参考 · 家具及可拆装窗框省略 · 单位 m</text>
+  <text x="54" y="146" class="label">A　原方案 · 北墙</text><text x="56" y="175" class="small">图左为西　→　图右为东</text>
+  <g transform="translate(250 135)"><rect class="wall" width="480" height="270"/><rect x="115" y="46" width="140" height="120" fill="#c9e0dc" stroke="#30747f" stroke-width="3"/>
+  <rect x="10" y="65" width="84" height="205" fill="#dce1ce" stroke="#788268" stroke-width="2"/><text x="51" y="217" class="small" text-anchor="middle">门洞</text><text x="51" y="237" font-size="12" text-anchor="middle">0.84 × 2.05</text>
+  <g class="dim"><path d="M115 33h140m-140-6v12m140-12v12M103 46v120m-6-120h12m-12 120h12M270 166v104m-6-104h12m-12 104h12"/></g>
+  <text x="185" y="26" class="small" text-anchor="middle">1.40</text><text x="91" y="112" class="small" text-anchor="end">1.20</text><text x="278" y="222" class="small">1.04</text>
+  <text x="325" y="84" class="note">墙宽 4.80</text><text x="325" y="112" class="note">净高 2.70</text><text x="325" y="140" class="note">洞左边距 1.15</text></g>
+  <text x="54" y="465" class="label">B　修改 · 西墙</text><text x="56" y="494" class="small">图左为南　→　图右为北</text>
+  <g transform="translate(250 450)"><rect class="wall" width="360" height="270"/><rect x="180" y="46" width="140" height="120" fill="#edd5b6" stroke="#b36132" stroke-width="3"/>
+  <g class="dim"><path d="M180 33h140m-140-6v12m140-12v12M168 46v120m-6-120h12m-12 120h12M333 166v104m-6-104h12m-12 104h12"/></g>
+  <text x="250" y="26" class="small" text-anchor="middle">1.40</text><text x="156" y="112" class="small" text-anchor="end">1.20</text><text x="323" y="222" class="small" text-anchor="end">1.04</text>
+  <text x="18" y="77" class="note">墙宽 3.60</text><text x="18" y="105" class="note">净高 2.70</text><text x="18" y="136" class="small">洞左边距 1.80</text></g>
+  <text x="763" y="204" class="note">修改后，北墙洞口封实。</text><text x="639" y="502" class="note">墙体中心线不作为尺寸起点。</text><text x="639" y="531" class="note">标注以室内完成面为准。</text>
+</svg>

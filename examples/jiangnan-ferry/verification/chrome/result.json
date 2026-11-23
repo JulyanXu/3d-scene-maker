@@ -1,0 +1,33 @@
+{
+  "browser": "157.0.8103.79",
+  "channel": "chrome",
+  "protocol": "file:",
+  "offline": true,
+  "viewport": [
+    1366,
+    768
+  ],
+  "opening": {
+    "frames": 13,
+    "triangles": 163581,
+    "draws": 502,
+    "view": "河心望渡",
+    "camera": [
+      8.800000000000002,
+      4.550000000000002,
+      17.5
+    ],
+    "target": [
+      -2,
+      2.63,
+      -4.2
+    ]
+  },
+  "views": [
+    "河心望渡",
+    "石阶候船",
+    "桥畔回望"
+  ],
+  "openingColorBins": 549,
+  "issues": []
+}

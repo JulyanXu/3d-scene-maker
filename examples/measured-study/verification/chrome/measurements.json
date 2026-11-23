@@ -1,0 +1,398 @@
+{
+  "units": "m",
+  "geometry": "world-space mesh bounds and solid wall raycasts",
+  "windowPlacementInElevation": {
+    "northProjection": {
+      "expected": {
+        "left": 0.23958333333333334,
+        "right": 0.53125,
+        "top": 0.17037037037037037,
+        "bottom": 0.6148148148148148
+      },
+      "measured": {
+        "left": 0.24,
+        "right": 0.531,
+        "top": 0.17,
+        "bottom": 0.615
+      },
+      "tolerance": 0.002
+    },
+    "westProjection": {
+      "expected": {
+        "left": 0.5,
+        "right": 0.8888888888888888,
+        "top": 0.17037037037037037,
+        "bottom": 0.6148148148148148
+      },
+      "measured": {
+        "left": 0.5,
+        "right": 0.889,
+        "top": 0.17,
+        "bottom": 0.615
+      },
+      "tolerance": 0.002
+    }
+  },
+  "before": {
+    "revision": "original",
+    "side": "north",
+    "frameBounds": {
+      "min": [
+        -1.25,
+        1.04,
+        -1.867
+      ],
+      "max": [
+        0.15,
+        2.24,
+        -1.797
+      ]
+    },
+    "projectedOpening": {
+      "left": 0.204,
+      "right": 0.477,
+      "top": 0.154,
+      "bottom": 0.542
+    },
+    "doorFrame": {
+      "min": [
+        -2.3,
+        0,
+        -1.878
+      ],
+      "max": [
+        -1.46,
+        2.05,
+        -1.788
+      ]
+    },
+    "doorProbes": {
+      "center": false,
+      "above": true,
+      "left": true,
+      "right": true
+    },
+    "deskFacing": [
+      0,
+      0,
+      -1
+    ],
+    "walls": {
+      "north": {
+        "min": [
+          -2.4,
+          0,
+          -1.92
+        ],
+        "max": [
+          2.4,
+          2.7,
+          -1.8
+        ]
+      },
+      "west": {
+        "min": [
+          -2.52,
+          0,
+          -1.8
+        ],
+        "max": [
+          -2.4,
+          2.7,
+          1.8
+        ]
+      }
+    },
+    "probes": {
+      "north": {
+        "center": false,
+        "left": true,
+        "right": true,
+        "above": true,
+        "below": true,
+        "innerLeft": false,
+        "innerRight": false,
+        "innerTop": false,
+        "innerBottom": false
+      },
+      "west": {
+        "center": true,
+        "left": true,
+        "right": true,
+        "above": true,
+        "below": true,
+        "innerLeft": true,
+        "innerRight": true,
+        "innerTop": true,
+        "innerBottom": true
+      }
+    },
+    "furniture": {
+      "desk": {
+        "min": [
+          -1.425,
+          0,
+          -1.6
+        ],
+        "max": [
+          0.325,
+          0.76,
+          -0.88
+        ]
+      },
+      "deskChair": {
+        "min": [
+          -0.812,
+          0.008,
+          -0.713
+        ],
+        "max": [
+          -0.288,
+          0.822,
+          -0.247
+        ]
+      },
+      "bookcase": {
+        "min": [
+          0.99,
+          0,
+          -1.72
+        ],
+        "max": [
+          2.11,
+          2.12,
+          -1.32
+        ]
+      },
+      "credenza": {
+        "min": [
+          -2.31,
+          0,
+          0.26
+        ],
+        "max": [
+          -1.89,
+          0.82,
+          1.44
+        ]
+      },
+      "lounge": {
+        "min": [
+          0.672,
+          0.017,
+          0.189
+        ],
+        "max": [
+          1.573,
+          0.864,
+          1.063
+        ]
+      },
+      "sideTable": {
+        "min": [
+          1.605,
+          0.017,
+          0.255
+        ],
+        "max": [
+          2.055,
+          0.443,
+          0.705
+        ]
+      },
+      "standingLamp": {
+        "min": [
+          0.285,
+          0,
+          -1.105
+        ],
+        "max": [
+          0.775,
+          1.562,
+          -0.615
+        ]
+      }
+    }
+  },
+  "after": {
+    "revision": "revised",
+    "side": "west",
+    "frameBounds": {
+      "min": [
+        -2.467,
+        1.04,
+        -1.4
+      ],
+      "max": [
+        -2.397,
+        2.24,
+        0
+      ]
+    },
+    "projectedOpening": {
+      "left": 0.569,
+      "right": 0.914,
+      "top": 0.134,
+      "bottom": 0.599
+    },
+    "doorFrame": {
+      "min": [
+        -2.3,
+        0,
+        -1.878
+      ],
+      "max": [
+        -1.46,
+        2.05,
+        -1.788
+      ]
+    },
+    "doorProbes": {
+      "center": false,
+      "above": true,
+      "left": true,
+      "right": true
+    },
+    "deskFacing": [
+      0,
+      0,
+      -1
+    ],
+    "walls": {
+      "north": {
+        "min": [
+          -2.4,
+          0,
+          -1.92
+        ],
+        "max": [
+          2.4,
+          2.7,
+          -1.8
+        ]
+      },
+      "west": {
+        "min": [
+          -2.52,
+          0,
+          -1.8
+        ],
+        "max": [
+          -2.4,
+          2.7,
+          1.8
+        ]
+      }
+    },
+    "probes": {
+      "north": {
+        "center": true,
+        "left": true,
+        "right": true,
+        "above": true,
+        "below": true,
+        "innerLeft": true,
+        "innerRight": true,
+        "innerTop": true,
+        "innerBottom": true
+      },
+      "west": {
+        "center": false,
+        "left": true,
+        "right": true,
+        "above": true,
+        "below": true,
+        "innerLeft": false,
+        "innerRight": false,
+        "innerTop": false,
+        "innerBottom": false
+      }
+    },
+    "furniture": {
+      "desk": {
+        "min": [
+          -1.425,
+          0,
+          -1.6
+        ],
+        "max": [
+          0.325,
+          0.76,
+          -0.88
+        ]
+      },
+      "deskChair": {
+        "min": [
+          -0.812,
+          0.008,
+          -0.713
+        ],
+        "max": [
+          -0.288,
+          0.822,
+          -0.247
+        ]
+      },
+      "bookcase": {
+        "min": [
+          0.99,
+          0,
+          -1.72
+        ],
+        "max": [
+          2.11,
+          2.12,
+          -1.32
+        ]
+      },
+      "credenza": {
+        "min": [
+          -2.31,
+          0,
+          0.26
+        ],
+        "max": [
+          -1.89,
+          0.82,
+          1.44
+        ]
+      },
+      "lounge": {
+        "min": [
+          0.672,
+          0.017,
+          0.189
+        ],
+        "max": [
+          1.573,
+          0.864,
+          1.063
+        ]
+      },
+      "sideTable": {
+        "min": [
+          1.605,
+          0.017,
+          0.255
+        ],
+        "max": [
+          2.055,
+          0.443,
+          0.705
+        ]
+      },
+      "standingLamp": {
+        "min": [
+          0.285,
+          0,
+          -1.105
+        ],
+        "max": [
+          0.775,
+          1.562,
+          -0.615
+        ]
+      }
+    }
+  }
+}

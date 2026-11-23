@@ -1,0 +1,32 @@
+export default async function checkWorkshop(page, assert, capture) {
+  const inspect = () => page.evaluate(() => window.sceneMaker.inspect());
+  const initial = await inspect();
+  assert.equal(initial.figureTriangles, 62972);
+  const progress = page.getByRole('slider', {name:'雕刻进度'});
+  await progress.focus();
+  await progress.press('Home');
+  const raw = await inspect();
+  assert.equal(raw.progress, 0);
+  assert.ok(raw.stockCenterHeight > 5, '毛坯应包住头顶');
+  await capture('raw-block');
+  await progress.press('End');
+  const carved = await inspect();
+  assert.equal(carved.progress, 100);
+  assert.ok(raw.stockCenterHeight - carved.stockCenterHeight > 3.8, '滑杆应实际降低毛坯表面');
+  await capture('exposed-figure');
+  await progress.fill('58');
+  await progress.dispatchEvent('input');
+  const restored = await inspect();
+  assert.ok(Math.abs(restored.stockCenterHeight - initial.stockCenterHeight) < .0001);
+  await page.getByRole('combobox', { name: '视角' }).selectOption({label:'凿痕细节'});
+  const mark = page.getByRole('button', {name:'落凿', exact:true});
+  await mark.click();
+  const struck = await inspect();
+  assert.equal(struck.strikes, initial.strikes + 1);
+  assert.equal(struck.totalChips - initial.totalChips, 15);
+  assert.ok(struck.cutDepthSum > restored.cutDepthSum);
+  assert.ok(struck.impact[2] > .3 && struck.impact[1] > 1, '石屑从正面凿点产生');
+  await capture('chisel-impact');
+  await mark.click();
+  assert.ok((await inspect()).cutDepthSum > struck.cutDepthSum, '再次落凿应留下新的局部凹痕');
+}

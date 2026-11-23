@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="770" viewBox="0 0 980 770" role="img" aria-labelledby="title desc">
+  <title id="title">午后书房 · 测绘平面</title>
+  <desc id="desc">室内净宽 4.80 米、进深 3.60 米。入口在北墙西端，书桌距北墙0.20米，使用者朝北。蓝线是北墙原窗，橙线为改后西窗。每个小格代表 0.20 米。</desc>
+  <defs>
+    <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse" x="155" y="150"><path d="M25 0H0V25" fill="none" stroke="#e1d9c9" stroke-width=".8"/></pattern>
+    <style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",Arial,sans-serif;fill:#2d3938}.small{font-size:15px}.label{font-size:17px;font-weight:600}.metric{font-size:17px;letter-spacing:1px}.dim{fill:none;stroke:#52605a;stroke-width:1.3}.body{font-size:17px}.foot{font-size:15px;fill:#5f6860}</style>
+  </defs>
+  <rect width="980" height="770" fill="#f8f4e9"/>
+  <text x="60" y="59" font-size="32" font-weight="650">午后书房</text><text x="246" y="57" font-size="19">家具定位与窗位变更</text>
+  <text x="60" y="93" class="foot">原创合成测绘参考 · 室内中心为原点 · 单位 m</text>
+  <g><rect x="155" y="150" width="600" height="450" fill="url(#grid)" stroke="#949d91" stroke-width="1.5" stroke-dasharray="7 5"/>
+    <path d="M155 600V150H755" stroke="#38433e" stroke-width="8" fill="none" stroke-linejoin="round"/>
+    <path d="M167.5 150h105" stroke="#f8f4e9" stroke-width="9"/><path d="M167.5 150h105" stroke="#73816b" stroke-width="4"/><path d="M167.5 150v105" fill="none" stroke="#73816b" stroke-width="2"/>
+    <path d="M272.5 150a105 105 0 0 1-105 105" fill="none" stroke="#73816b" stroke-width="1.5" stroke-dasharray="5 4"/><text x="215" y="136" class="small" text-anchor="middle">门 0.84</text>
+    <path d="M298.75 150h175" stroke="#39828c" stroke-width="9"/><path d="M155 200v175" stroke="#c76c37" stroke-width="9"/>
+    <g fill="#d6c9b4" stroke="#645c4b" stroke-width="2"><rect x="276.875" y="175" width="218.75" height="90" rx="2"/><rect x="578.75" y="160" width="140" height="50" rx="2"/><rect x="166.25" y="407.5" width="52.5" height="147.5" rx="2"/></g>
+    <g fill="none" stroke="#848671" stroke-width="2" stroke-dasharray="7 4"><rect x="346" y="278" width="76" height="71" rx="7"/><rect x="542" y="390" width="109" height="116" rx="14"/></g>
+    <text x="386" y="215" class="label" text-anchor="middle">书桌</text><text x="386" y="240" class="small" text-anchor="middle">1.75 × 0.72</text>
+    <path d="M507 245v-47m-5 8 5-9 5 9" stroke="#536449" stroke-width="2" fill="none"/><text x="523" y="226" class="small">朝北</text>
+    <path d="M488 150v25m-3-25h6m-6 25h6" class="dim"/><text x="499" y="168" class="small">0.20</text>
+    <text x="649" y="192" class="label" text-anchor="middle">高书柜</text>
+    <text x="198" y="484" class="label" text-anchor="middle" transform="rotate(-90 198 484)">西墙矮柜</text>
+    <text x="386" y="318" class="small" text-anchor="middle">桌椅</text><text x="596" y="453" class="small" text-anchor="middle">阅读椅</text>
+    <g stroke="#8a8375" fill="none"><path d="M447 375h16m-8-8v16"/><circle cx="455" cy="375" r="5"/></g><text x="467" y="374" class="small">(0,0)</text>
+  </g>
+  <g class="dim"><path d="M155 608v34m600-34v34M155 634h600m-600-6v12m600-12v12M138 150H99m39 450H99m8-450v450m-6-450h12m-12 450h12"/></g>
+  <text x="455" y="663" class="metric" text-anchor="middle">4.80</text><text x="87" y="375" class="metric" text-anchor="middle" transform="rotate(-90 87 375)">3.60</text>
+  <path d="M818 192v-42m-8 11 8-15 8 15" stroke="#364540" stroke-width="2.5" fill="none"/><text x="817" y="135" class="label" text-anchor="middle">北 N</text>
+  <text x="812" y="259" class="foot">西 ←　→ 东</text><text x="816" y="288" class="foot">下方为南</text>
+  <g stroke-width="6"><path d="M62 710h34" stroke="#39828c"/><path d="M395 710h34" stroke="#c76c37"/></g>
+  <text x="108" y="716" class="body">原北窗　中心 X = −0.55</text><text x="442" y="716" class="body">改后西窗　中心 Z = −0.70</text>
+  <text x="62" y="745" class="foot">洞宽均为 1.40。虚线家具仅示意使用区域；桌椅、阅读椅的造型可自由细化。</text>
+</svg>

@@ -1,0 +1,4 @@
+interface:
+  display_name: "3D 场景制作"
+  short_description: "用文字、图片和尺寸制作可离线打开的交互式三维场景"
+  default_prompt: "用 $3d-scene-maker 根据我的需求制作可交互的 3D 场景，并交付离线网页与源码。"
